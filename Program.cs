@@ -23,7 +23,7 @@ namespace Home_Work_10._2
                 sbuilderResult.AppendLine($"Заголовок: {headline}");
                 sbuilderResult.AppendLine();
 
-                Console.WriteLine("Якщо хочете вийти натисніть на 1, якщо ні нажміть 2");
+                Console.WriteLine("Якщо хочете вийти натисніть на 1, якщо хочете продовжити нажміть 2");
                 int inputExit = Convert.ToInt32(Console.ReadLine());
 
                 if(inputExit == 1)
